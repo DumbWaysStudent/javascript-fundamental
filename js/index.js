@@ -1,16 +1,17 @@
+function add(one, two){
+  return one + two;
+}
+
+function substract(one, two){
+  return one - two;
+}
+
 var one = 1;
 var two = 2;
 
-// two += 4;
+function multiplyOneAndTwo(){
+  return one * two;
+}
 
-// console.log(two);
-
-
-var firstName = "Ega";
-var lastName = "Radiegtya";
-
-// console.log(firstName + " " + lastName);
-
-// console.log(firstName + (one + two));
-
-console.log(one / two);
+var result = multiplyOneAndTwo();
+console.log(result);
