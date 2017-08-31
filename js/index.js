@@ -1,17 +1,10 @@
-function add(one, two){
-  return one + two;
+var person = {
+  firstName: "Ayunda",
+  lastName: "Susanti",
+  age: 21,
+  walk(){
+    return "I am walking";
+  }
 }
 
-function substract(one, two){
-  return one - two;
-}
-
-var one = 1;
-var two = 2;
-
-function multiplyOneAndTwo(){
-  return one * two;
-}
-
-var result = multiplyOneAndTwo();
-console.log(result);
+console.log(person['firstName'])
